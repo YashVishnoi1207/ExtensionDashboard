@@ -1,0 +1,40 @@
+.dashboard {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dashboard__container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .dashboard__btn {
+    height: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+  }
+  .Navbar{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dcdcdc;
+    padding-left: 1rem;
+  }
+  .Details{
+    border-bottom: 1px solid;
+    display: flex;
+  }
+  .WebPhotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+  }
